@@ -37,7 +37,8 @@
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".ScreenshotActivity" android:theme="@style/Theme.Transparent"></activity>
+        <activity android:name=".ScreenshotActivity" android:theme="@style/Theme.Transparent"
+            android:launchMode="singleInstance"></activity>
     </application>
 
 </manifest>
